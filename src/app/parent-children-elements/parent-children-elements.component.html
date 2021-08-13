@@ -1,0 +1,33 @@
+
+<form (submit)="fireEvent($event);">
+    <div class="contact"> 
+        <span>
+            Contact Form
+        </span>
+    </div>
+    <div class="name up">
+        <p>
+            Name: <span class="star">*</span>
+        </p>
+        <input class="top" type="text" name="Fname" [(ngModel)]="fname">
+        <input class="top" type="text" name="Lname" [(ngModel)]="lname">
+        <div>
+            <span>First name</span>
+            <span>Last name</span>
+        </div>
+    </div>
+    <div class="up">
+        <p>
+            Email: <span class="star">*</span>
+        </p>
+        <input type="email" name="email" [(ngModel)]="email">
+    </div>
+    <div class="up">
+        <p>
+            Phone: <span class="star">*</span>
+        </p>
+        <input type="text" name="phone" [(ngModel)]="phone">
+    </div>
+    <button>Submit</button>
+</form>
+

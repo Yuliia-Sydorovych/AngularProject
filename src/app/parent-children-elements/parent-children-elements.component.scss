@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+form
+{
+    height: 500px;
+    width: 400px;
+}
+div.contact
+{
+    background-color: rgb(50, 197, 124);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+div.contact span
+{
+    display: block;
+    margin-left: 10px;
+    padding-top: 13px;
+}
+div.name div span
+{
+    margin-left: 20px;
+    margin-right: 95px; 
+    color: silver;
+}
+p
+{
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+span.star
+{
+    color: red;
+}
+input.top
+{
+    height: 30px;
+    width: 165px;
+}
+input
+{
+    height: 30px;
+    margin-left: 20px;
+    width: 355px;
+    border: 1px solid silver;
+}
+div.up
+{
+    margin-top: 20px;
+}
+button
+{
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    height: 35px;
+    font-weight: bold;
+    width: 110px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button:hover
+{
+    color: white;
+    background-color: gray;
+}
